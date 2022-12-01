@@ -12,17 +12,14 @@ void Studentdata()
     cin>>roll ;
     cout<<"\n\t percentage=" ;
     cin>>per ;
-}
-
-void display()
-{
-    char name;
+     char name;
     int roll ;
     float per;
     cout<<"\n\t name ="<<name ;
     cout<<"\n\t roll no="<<roll ;
     cout<<"\n\t percentage="<<per ;
 }
+
 int main()
 {
     int n;
@@ -33,7 +30,6 @@ int main()
     {
         cout<<"\n\tenter the details of student "<<i<<endl ;
         Studentdata();
-        display();
     }
     
 
