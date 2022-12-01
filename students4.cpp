@@ -12,9 +12,6 @@ void Studentdata()
     cin>>roll ;
     cout<<"\n\t percentage=" ;
     cin>>per ;
-     char name;
-    int roll ;
-    float per;
     cout<<"\n\t name ="<<name ;
     cout<<"\n\t roll no="<<roll ;
     cout<<"\n\t percentage="<<per ;
